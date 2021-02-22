@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Leon Punya/BINUS/Kuliah/Semester 2/COMP6571_Data Structures and Algorithms/DSA_Coding/Lecture_5_Trees/BinaryTree.cpp
+BinaryTree.h
+E:/Leon Punya/BINUS/Kuliah/Semester 2/COMP6571_Data Structures and Algorithms/DSA_Coding/Lecture_5_Trees/BinaryTree.h
+
+E:/Leon Punya/BINUS/Kuliah/Semester 2/COMP6571_Data Structures and Algorithms/DSA_Coding/Lecture_5_Trees/BinaryTree.h
+iostream
+-
+queue
+-
+
