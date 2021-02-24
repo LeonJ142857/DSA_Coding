@@ -3,6 +3,7 @@
 //
 
 #include "Converter.h"
+#include <map>
 template<typename T>
 string Converter<T>::dec_to_roman(const string * romans, const int * decimal_bases) {
 	string result;
