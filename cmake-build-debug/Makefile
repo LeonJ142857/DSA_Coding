@@ -122,32 +122,32 @@ DSA_Coding/fast:
 	$(MAKE) -f CMakeFiles\DSA_Coding.dir\build.make CMakeFiles/DSA_Coding.dir/build
 .PHONY : DSA_Coding/fast
 
-Lecture_5_Trees/BinarySearchTree.obj: Lecture_5_Trees/BinarySearchTree.cpp.obj
+Lab_2_OOP_Principles/roman_decimal_converter.obj: Lab_2_OOP_Principles/roman_decimal_converter.cpp.obj
 
-.PHONY : Lecture_5_Trees/BinarySearchTree.obj
+.PHONY : Lab_2_OOP_Principles/roman_decimal_converter.obj
 
 # target to build an object file
-Lecture_5_Trees/BinarySearchTree.cpp.obj:
-	$(MAKE) -f CMakeFiles\DSA_Coding.dir\build.make CMakeFiles/DSA_Coding.dir/Lecture_5_Trees/BinarySearchTree.cpp.obj
-.PHONY : Lecture_5_Trees/BinarySearchTree.cpp.obj
+Lab_2_OOP_Principles/roman_decimal_converter.cpp.obj:
+	$(MAKE) -f CMakeFiles\DSA_Coding.dir\build.make CMakeFiles/DSA_Coding.dir/Lab_2_OOP_Principles/roman_decimal_converter.cpp.obj
+.PHONY : Lab_2_OOP_Principles/roman_decimal_converter.cpp.obj
 
-Lecture_5_Trees/BinarySearchTree.i: Lecture_5_Trees/BinarySearchTree.cpp.i
+Lab_2_OOP_Principles/roman_decimal_converter.i: Lab_2_OOP_Principles/roman_decimal_converter.cpp.i
 
-.PHONY : Lecture_5_Trees/BinarySearchTree.i
+.PHONY : Lab_2_OOP_Principles/roman_decimal_converter.i
 
 # target to preprocess a source file
-Lecture_5_Trees/BinarySearchTree.cpp.i:
-	$(MAKE) -f CMakeFiles\DSA_Coding.dir\build.make CMakeFiles/DSA_Coding.dir/Lecture_5_Trees/BinarySearchTree.cpp.i
-.PHONY : Lecture_5_Trees/BinarySearchTree.cpp.i
+Lab_2_OOP_Principles/roman_decimal_converter.cpp.i:
+	$(MAKE) -f CMakeFiles\DSA_Coding.dir\build.make CMakeFiles/DSA_Coding.dir/Lab_2_OOP_Principles/roman_decimal_converter.cpp.i
+.PHONY : Lab_2_OOP_Principles/roman_decimal_converter.cpp.i
 
-Lecture_5_Trees/BinarySearchTree.s: Lecture_5_Trees/BinarySearchTree.cpp.s
+Lab_2_OOP_Principles/roman_decimal_converter.s: Lab_2_OOP_Principles/roman_decimal_converter.cpp.s
 
-.PHONY : Lecture_5_Trees/BinarySearchTree.s
+.PHONY : Lab_2_OOP_Principles/roman_decimal_converter.s
 
 # target to generate assembly for a file
-Lecture_5_Trees/BinarySearchTree.cpp.s:
-	$(MAKE) -f CMakeFiles\DSA_Coding.dir\build.make CMakeFiles/DSA_Coding.dir/Lecture_5_Trees/BinarySearchTree.cpp.s
-.PHONY : Lecture_5_Trees/BinarySearchTree.cpp.s
+Lab_2_OOP_Principles/roman_decimal_converter.cpp.s:
+	$(MAKE) -f CMakeFiles\DSA_Coding.dir\build.make CMakeFiles/DSA_Coding.dir/Lab_2_OOP_Principles/roman_decimal_converter.cpp.s
+.PHONY : Lab_2_OOP_Principles/roman_decimal_converter.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... DSA_Coding
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Lecture_5_Trees/BinarySearchTree.obj
-	@echo ... Lecture_5_Trees/BinarySearchTree.i
-	@echo ... Lecture_5_Trees/BinarySearchTree.s
+	@echo ... Lab_2_OOP_Principles/roman_decimal_converter.obj
+	@echo ... Lab_2_OOP_Principles/roman_decimal_converter.i
+	@echo ... Lab_2_OOP_Principles/roman_decimal_converter.s
 .PHONY : help
 
 
