@@ -17,7 +17,7 @@ public :
 			cout << "This is the number represented using roman numbers" << result << endl;
 		}
 	}
-	static void r_to_dec_opt(int option, const string * romans, const int * decimal_bases) {
+	static void r_to_dec_opt(int option) {
 		cout << "Please input a Letter from I to MMMMMMMMMCMXCIX";
 		string input; cin >> input;
 		auto * converter = new Converter<typeof(input)>(input, option);
