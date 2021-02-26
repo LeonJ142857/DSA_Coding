@@ -14,6 +14,8 @@ private:
 	const int SIZE = 13;
 	int option;
 	T input;
+	pair<bool, int> check_for_2();
+	int check_for_1();
 public:
 	explicit Converter(T input, int option = 1){
 		this->input = input;
