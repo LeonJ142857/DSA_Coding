@@ -5,6 +5,7 @@
 #ifndef DSA_CODING_CONVERTER_H
 #define DSA_CODING_CONVERTER_H
 #include <string>
+#include <map>
 using namespace std;
 
 template<typename T>
@@ -14,12 +15,12 @@ private:
 	int option;
 	T input;
 public:
-	Converter(T input, int option = 1){
+	explicit Converter(T input, int option = 1){
 		this->input = input;
 		this->option = option;
 	}
-	string dec_to_roman(const string * romans, const int * decimal_bases);
-	int roman_to_dec(const string * romans, const int * decimal_bases);
+	string dec_to_roman();
+	int roman_to_dec();
 };
 
 

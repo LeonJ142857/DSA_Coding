@@ -5,12 +5,17 @@
 #include "Converter.h"
 #include <map>
 template<typename T>
-string Converter<T>::dec_to_roman(const string * romans, const int * decimal_bases) {
+string Converter<T>::dec_to_roman() {
+	static const map<int, string> d_to_r =
+			{{1000, "M"}, {900,"CM"}, {500, "D"},{400, "CD"},
+			 {100, "C"}, {90, "XC"}, {50, "L"}, {40, "XL"},
+			 {10, "X"}, {9,"IX"}, {5, "V"}, {4, "IV"}, {1, "I"}
+			};
 	string result;
 	while(input){
-		for(int i = 0; i < SIZE; ++i){
-			int d_base = decimal_bases[i];
-			string roman = romans[i];
+		for(auto i : d_to_r){
+			int d_base = i.first;
+			string roman = i.second;
 			if(input > d_base){
 				input -= d_base;
 				result += roman;
@@ -20,12 +25,16 @@ string Converter<T>::dec_to_roman(const string * romans, const int * decimal_bas
 	return result;
 }
 template<typename T>
-int Converter<T>::roman_to_dec(const string * romans, const int * decimal_bases) {
+int Converter<T>::roman_to_dec() {
 	string result;
-	map<string, int> m1 = {
-			{"M",  1000}, {"CM", 900}, {"D",  500}, {"CD", 400},
-			{"C",  100}, {"XC", 90}, {"L",  50}, {"XL", 40},
-			{"X",  10}, {"IX", 9}, {"V",  5}, {"IV", 4}, {"I",  1}
-	};
+	static const map<string, int> romans2 =
+			{{"CM", 900},{"CD", 400}, {"XC",90},
+			 {"XL", 40}, {"IX",9}, {"IV", 4}
+			};
+	static const map<string, int> romans1 =
+			{{"M", 1000}, {"D", 500}, {"C", 100},
+			 {"L", 50}, {"X", 10}, {"V", 5}, {"I", 1}
+			};
+
 }
 
