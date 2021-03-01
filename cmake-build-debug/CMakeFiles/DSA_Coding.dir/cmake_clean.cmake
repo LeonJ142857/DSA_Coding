@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DSA_Coding.dir/Lab_2_OOP_Principles/roman_decimal_converter.cpp.obj"
+  "CMakeFiles/DSA_Coding.dir/Lab_2_OOP_Principles/abcd.cpp.obj"
   "DSA_Coding.exe"
   "DSA_Coding.exe.manifest"
   "DSA_Coding.pdb"
