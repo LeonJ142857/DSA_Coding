@@ -122,32 +122,32 @@ DSA_Coding/fast:
 	$(MAKE) -f CMakeFiles\DSA_Coding.dir\build.make CMakeFiles/DSA_Coding.dir/build
 .PHONY : DSA_Coding/fast
 
-Lab_2_OOP_Principles/abcd.obj: Lab_2_OOP_Principles/abcd.cpp.obj
+Lab_2_OOP_Principles(Group)/roman_decimal_converter.obj: Lab_2_OOP_Principles(Group)/roman_decimal_converter.cpp.obj
 
-.PHONY : Lab_2_OOP_Principles/abcd.obj
+.PHONY : Lab_2_OOP_Principles(Group)/roman_decimal_converter.obj
 
 # target to build an object file
-Lab_2_OOP_Principles/abcd.cpp.obj:
-	$(MAKE) -f CMakeFiles\DSA_Coding.dir\build.make CMakeFiles/DSA_Coding.dir/Lab_2_OOP_Principles/abcd.cpp.obj
-.PHONY : Lab_2_OOP_Principles/abcd.cpp.obj
+Lab_2_OOP_Principles(Group)/roman_decimal_converter.cpp.obj:
+	$(MAKE) -f CMakeFiles\DSA_Coding.dir\build.make CMakeFiles/DSA_Coding.dir/Lab_2_OOP_Principles(Group)/roman_decimal_converter.cpp.obj
+.PHONY : Lab_2_OOP_Principles(Group)/roman_decimal_converter.cpp.obj
 
-Lab_2_OOP_Principles/abcd.i: Lab_2_OOP_Principles/abcd.cpp.i
+Lab_2_OOP_Principles(Group)/roman_decimal_converter.i: Lab_2_OOP_Principles(Group)/roman_decimal_converter.cpp.i
 
-.PHONY : Lab_2_OOP_Principles/abcd.i
+.PHONY : Lab_2_OOP_Principles(Group)/roman_decimal_converter.i
 
 # target to preprocess a source file
-Lab_2_OOP_Principles/abcd.cpp.i:
-	$(MAKE) -f CMakeFiles\DSA_Coding.dir\build.make CMakeFiles/DSA_Coding.dir/Lab_2_OOP_Principles/abcd.cpp.i
-.PHONY : Lab_2_OOP_Principles/abcd.cpp.i
+Lab_2_OOP_Principles(Group)/roman_decimal_converter.cpp.i:
+	$(MAKE) -f CMakeFiles\DSA_Coding.dir\build.make CMakeFiles/DSA_Coding.dir/Lab_2_OOP_Principles(Group)/roman_decimal_converter.cpp.i
+.PHONY : Lab_2_OOP_Principles(Group)/roman_decimal_converter.cpp.i
 
-Lab_2_OOP_Principles/abcd.s: Lab_2_OOP_Principles/abcd.cpp.s
+Lab_2_OOP_Principles(Group)/roman_decimal_converter.s: Lab_2_OOP_Principles(Group)/roman_decimal_converter.cpp.s
 
-.PHONY : Lab_2_OOP_Principles/abcd.s
+.PHONY : Lab_2_OOP_Principles(Group)/roman_decimal_converter.s
 
 # target to generate assembly for a file
-Lab_2_OOP_Principles/abcd.cpp.s:
-	$(MAKE) -f CMakeFiles\DSA_Coding.dir\build.make CMakeFiles/DSA_Coding.dir/Lab_2_OOP_Principles/abcd.cpp.s
-.PHONY : Lab_2_OOP_Principles/abcd.cpp.s
+Lab_2_OOP_Principles(Group)/roman_decimal_converter.cpp.s:
+	$(MAKE) -f CMakeFiles\DSA_Coding.dir\build.make CMakeFiles/DSA_Coding.dir/Lab_2_OOP_Principles(Group)/roman_decimal_converter.cpp.s
+.PHONY : Lab_2_OOP_Principles(Group)/roman_decimal_converter.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... DSA_Coding
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Lab_2_OOP_Principles/abcd.obj
-	@echo ... Lab_2_OOP_Principles/abcd.i
-	@echo ... Lab_2_OOP_Principles/abcd.s
+	@echo ... Lab_2_OOP_Principles(Group)/roman_decimal_converter.obj
+	@echo ... Lab_2_OOP_Principles(Group)/roman_decimal_converter.i
+	@echo ... Lab_2_OOP_Principles(Group)/roman_decimal_converter.s
 .PHONY : help
 
 
