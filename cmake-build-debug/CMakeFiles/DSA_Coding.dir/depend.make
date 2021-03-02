@@ -3,6 +3,6 @@
 
 CMakeFiles/DSA_Coding.dir/Lab_2_OOP_Principles(Group)/roman_decimal_converter.cpp.obj: ../Lab_2_OOP_Principles(Group)/Converter.h
 CMakeFiles/DSA_Coding.dir/Lab_2_OOP_Principles(Group)/roman_decimal_converter.cpp.obj: ../Lab_2_OOP_Principles(Group)/Converter_Implement.h
-CMakeFiles/DSA_Coding.dir/Lab_2_OOP_Principles(Group)/roman_decimal_converter.cpp.obj: ../Lab_2_OOP_Principles(Group)/DecRoman.h
+CMakeFiles/DSA_Coding.dir/Lab_2_OOP_Principles(Group)/roman_decimal_converter.cpp.obj: ../Lab_2_OOP_Principles(Group)/Options.h
 CMakeFiles/DSA_Coding.dir/Lab_2_OOP_Principles(Group)/roman_decimal_converter.cpp.obj: ../Lab_2_OOP_Principles(Group)/roman_decimal_converter.cpp
 

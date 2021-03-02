@@ -26,16 +26,14 @@ private:
 
 	}
 	static void r_to_dec_opt(int option) {
-		cout << "Please input a Letter from I to MMMMMMMMMCMXCIX";
-		string input; cin >> input;
-		auto * converter = new Converter<typeof(input)>(input, option);
-		int result = converter->roman_to_dec();
-		cout << "This is the number represented in decimal" << result << endl;
-		while(result >= 1 && result <= 9999){
-			cout << "Please input a Letter from I to MMMMMMMMMCMXCIX"; cin >> input;
-			converter = new Converter<typeof(input)>(input, option);
+		static int result;
+		do{
+			cout << "Please input a roman number from I to MMMMMMMMMCMXCIX,"
+		   " input any letter not defined in roman numerals to exit" << endl;
+			string input; cin >> input;
+			auto * converter = new Converter<string>(input, option);
 			result = converter->roman_to_dec();
-			cout << "This is the number represented in decimal" << result << endl;
-		}
+			cout << "This is the number represented in decimal: " << result << endl;
+		} while(result >= 1 && result <= 9999);
 	}
 };

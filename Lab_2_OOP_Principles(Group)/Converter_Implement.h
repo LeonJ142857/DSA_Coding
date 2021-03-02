@@ -4,10 +4,11 @@
 
 #include "Converter.h"
 #include <map>
+#include <regex>
 template<typename T>
-#define scm static const map
+#define scm_isg static const map<int, string, greater<int>>
 string Converter<T>::dec_to_roman() {
-	scm<int, string, greater<int>> d_to_r =
+	scm_isg d_to_r =
 			{{1000, "M"}, {900,"CM"}, {500, "D"},{400, "CD"},
 			 {100, "C"}, {90, "XC"}, {50, "L"}, {40, "XL"},
 			 {10, "X"}, {9,"IX"}, {5, "V"}, {4, "IV"}, {1, "I"}
@@ -27,23 +28,58 @@ string Converter<T>::dec_to_roman() {
 }
 template<typename T>
 int Converter<T>::roman_to_dec() {
+	scm_isg r_to_d_2 =
+			{{900, "CM"},{400, "CD"}, {90, "XC"},
+			 {40, "XL"}, {9, "IX"}, {4, "IV"}
+			};
+	scm_isg r_to_d_1 =
+			{{1000, "M"}, {500, "D"}, {100, "C"},
+			 {50, "L"}, {10, "X"}, {5, "V"}, {1, "I"}
+			};
 	int result = 0; string inp = input;
-	scm<string, int> r_to_d_2 =
-			{{"CM", 900},{"CD", 400}, {"XC",90},
-			 {"XL", 40}, {"IX",9}, {"IV", 4}
-			};
-	scm<string, int> r_to_d_1 =
-			{{"M", 1000}, {"D", 500}, {"C", 100},
-			 {"L", 50}, {"X", 10}, {"V", 5}, {"I", 1}
-			};
 	int i = 0;
 	const int size = inp.size();
+	bool match = regex_match(inp, regex("^M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$"));
+	if(match){
+		while(i < size){
+			bool detected = false;
+			for(const auto& j : r_to_d_2){
+				if(i <= size-2){
+					string sub = inp.substr(i, i+2);
+					if(sub == j.second){
+						result += j.first;
+						i += 2;
+						detected = true;
+						break;
+					}
+				}
+			}
+			if(!detected){
+				for(const auto& j : r_to_d_1){
+					if(i < size){
+						string sub = inp.substr(i, i+1);
+						if(sub == j.second){
+							result += j.first;
+							++i;
+							break;
+						}
+					}
+				}
+			}
+		}
+	}
+	return result;
+}
+template<typename T>
+int Converter<T>::r_to_d_check(scm_isg r_to_d_1, scm_isg r_to_d_2)
+{
 	while(i < size){
 		bool detected = false;
 		for(const auto& j : r_to_d_2){
-			if(i < size-2){
-				if(inp.substr(i, i+2) == j.first){
-					result += j.second;
+			if(i <= size-2){
+				string sub = inp.substr(i, i+2);
+				if(sub == j.second){
+					result += j.first;
 					i += 2;
 					detected = true;
 					break;
@@ -53,8 +89,9 @@ int Converter<T>::roman_to_dec() {
 		if(!detected){
 			for(const auto& j : r_to_d_1){
 				if(i < size){
-					if(inp.substr(i, i+1) == j.first){
-						result += j.second;
+					string sub = inp.substr(i, i+1);
+					if(sub == j.second){
+						result += j.first;
 						++i;
 						break;
 					}
@@ -62,7 +99,7 @@ int Converter<T>::roman_to_dec() {
 			}
 		}
 	}
-	return result;
+
 }
 
 

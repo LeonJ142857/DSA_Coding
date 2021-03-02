@@ -6,6 +6,7 @@
 #define DSA_CODING_CONVERTER_H
 #include <string>
 #include <map>
+#define scm_isg static const map<int, string, greater<int>>
 using namespace std;
 
 template<typename T>
@@ -16,13 +17,14 @@ private:
 	T input;
 	pair<bool, int> check_for_2();
 	int check_for_1();
-public:
+	public:
 	explicit Converter(T input, int option = 1){
 		this->input = input;
 		this->option = option;
 	}
 	string dec_to_roman();
 	int roman_to_dec();
+	int r_to_d_check(scm_isg r_to_d_1, scm_isg r_to_d_2);
 };
 
 
