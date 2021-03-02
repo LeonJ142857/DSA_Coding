@@ -1,13 +1,15 @@
 //
 // Created by user on 24/02/2021.
 //
-#include "Converter_Implement.h"
+#include "Converter.h"
 #include <iostream>
 using namespace std;
 
 class Options{
 public :
 	static void main_opt(){
+		cout << "What do you want to do ?\n\n1. Convert decimal to roman number"
+				"\n2. Convert roman number to decimal\n3. Exit\n" << endl;
 		int option; cin >> option;
 		if(option == 1 || option == 2){
 			if(option == 1) dec_to_r_opt(option);
@@ -23,7 +25,7 @@ private:
 			string result = converter->dec_to_roman();
 			cout << "This is the number represented using roman numbers: " << result << endl;
 		} while(input >= 1 && input <= 9999);
-
+		main_opt();
 	}
 	static void r_to_dec_opt(int option) {
 		static int result;
@@ -35,5 +37,6 @@ private:
 			result = converter->roman_to_dec();
 			cout << "This is the number represented in decimal: " << result << endl;
 		} while(result >= 1 && result <= 9999);
+		main_opt();
 	}
 };
