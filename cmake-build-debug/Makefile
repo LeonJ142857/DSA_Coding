@@ -122,32 +122,32 @@ DSA_Coding/fast:
 	$(MAKE) -f CMakeFiles\DSA_Coding.dir\build.make CMakeFiles/DSA_Coding.dir/build
 .PHONY : DSA_Coding/fast
 
-Lab_2_OOP_Principles(Group)/roman_decimal_converter.obj: Lab_2_OOP_Principles(Group)/roman_decimal_converter.cpp.obj
+Lab_3_Stack/stack_linked.obj: Lab_3_Stack/stack_linked.cpp.obj
 
-.PHONY : Lab_2_OOP_Principles(Group)/roman_decimal_converter.obj
+.PHONY : Lab_3_Stack/stack_linked.obj
 
 # target to build an object file
-Lab_2_OOP_Principles(Group)/roman_decimal_converter.cpp.obj:
-	$(MAKE) -f CMakeFiles\DSA_Coding.dir\build.make CMakeFiles/DSA_Coding.dir/Lab_2_OOP_Principles(Group)/roman_decimal_converter.cpp.obj
-.PHONY : Lab_2_OOP_Principles(Group)/roman_decimal_converter.cpp.obj
+Lab_3_Stack/stack_linked.cpp.obj:
+	$(MAKE) -f CMakeFiles\DSA_Coding.dir\build.make CMakeFiles/DSA_Coding.dir/Lab_3_Stack/stack_linked.cpp.obj
+.PHONY : Lab_3_Stack/stack_linked.cpp.obj
 
-Lab_2_OOP_Principles(Group)/roman_decimal_converter.i: Lab_2_OOP_Principles(Group)/roman_decimal_converter.cpp.i
+Lab_3_Stack/stack_linked.i: Lab_3_Stack/stack_linked.cpp.i
 
-.PHONY : Lab_2_OOP_Principles(Group)/roman_decimal_converter.i
+.PHONY : Lab_3_Stack/stack_linked.i
 
 # target to preprocess a source file
-Lab_2_OOP_Principles(Group)/roman_decimal_converter.cpp.i:
-	$(MAKE) -f CMakeFiles\DSA_Coding.dir\build.make CMakeFiles/DSA_Coding.dir/Lab_2_OOP_Principles(Group)/roman_decimal_converter.cpp.i
-.PHONY : Lab_2_OOP_Principles(Group)/roman_decimal_converter.cpp.i
+Lab_3_Stack/stack_linked.cpp.i:
+	$(MAKE) -f CMakeFiles\DSA_Coding.dir\build.make CMakeFiles/DSA_Coding.dir/Lab_3_Stack/stack_linked.cpp.i
+.PHONY : Lab_3_Stack/stack_linked.cpp.i
 
-Lab_2_OOP_Principles(Group)/roman_decimal_converter.s: Lab_2_OOP_Principles(Group)/roman_decimal_converter.cpp.s
+Lab_3_Stack/stack_linked.s: Lab_3_Stack/stack_linked.cpp.s
 
-.PHONY : Lab_2_OOP_Principles(Group)/roman_decimal_converter.s
+.PHONY : Lab_3_Stack/stack_linked.s
 
 # target to generate assembly for a file
-Lab_2_OOP_Principles(Group)/roman_decimal_converter.cpp.s:
-	$(MAKE) -f CMakeFiles\DSA_Coding.dir\build.make CMakeFiles/DSA_Coding.dir/Lab_2_OOP_Principles(Group)/roman_decimal_converter.cpp.s
-.PHONY : Lab_2_OOP_Principles(Group)/roman_decimal_converter.cpp.s
+Lab_3_Stack/stack_linked.cpp.s:
+	$(MAKE) -f CMakeFiles\DSA_Coding.dir\build.make CMakeFiles/DSA_Coding.dir/Lab_3_Stack/stack_linked.cpp.s
+.PHONY : Lab_3_Stack/stack_linked.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... DSA_Coding
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Lab_2_OOP_Principles(Group)/roman_decimal_converter.obj
-	@echo ... Lab_2_OOP_Principles(Group)/roman_decimal_converter.i
-	@echo ... Lab_2_OOP_Principles(Group)/roman_decimal_converter.s
+	@echo ... Lab_3_Stack/stack_linked.obj
+	@echo ... Lab_3_Stack/stack_linked.i
+	@echo ... Lab_3_Stack/stack_linked.s
 .PHONY : help
 
 
