@@ -3,40 +3,12 @@
 //
 #include <iostream>
 #include <string>
+#include "stackArray.h"
 using namespace std;
 
-class Stack{
-private:
-	static const int MAX = 100;
-	int top = -1;
-	int st[MAX];
-public:
-	void push(int& input); //insert
-	void pop(); //delete
-	int peek();
-	void display();
-};
-
-void Stack::push(int& input){
-	if(top >= MAX){
-		cout << "Stack Overflow" << endl;
-	}
-	++top;
-	st[top] = input;
-}
-void Stack::pop(){
-	if(top > -1) --top;
-}
-int Stack::peek(){
-	return st[top];
-}
-void Stack::display(){
-	for(int i = 0; i <= top; ++i) cout << st[i] << ' ';
-	cout << endl;
-}
 
 void main_option(){
-	static auto * stack = new Stack();
+	static auto * stack = new stackArray();
 	cout << "These are the options:" << endl;
 	cout << "1. PUSH\n2. POP\n3. PEEK\n4. DISPLAY\n5. EXIT" << endl;
 	cout << "Your option: "; string option; cin >> option;

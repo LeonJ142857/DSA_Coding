@@ -122,32 +122,32 @@ DSA_Coding/fast:
 	$(MAKE) -f CMakeFiles\DSA_Coding.dir\build.make CMakeFiles/DSA_Coding.dir/build
 .PHONY : DSA_Coding/fast
 
-Lab_3_Stack/stack_array.obj: Lab_3_Stack/stack_array.cpp.obj
+Lab_3_Stack/Stack_Applications/reverse_list.obj: Lab_3_Stack/Stack_Applications/reverse_list.cpp.obj
 
-.PHONY : Lab_3_Stack/stack_array.obj
+.PHONY : Lab_3_Stack/Stack_Applications/reverse_list.obj
 
 # target to build an object file
-Lab_3_Stack/stack_array.cpp.obj:
-	$(MAKE) -f CMakeFiles\DSA_Coding.dir\build.make CMakeFiles/DSA_Coding.dir/Lab_3_Stack/stack_array.cpp.obj
-.PHONY : Lab_3_Stack/stack_array.cpp.obj
+Lab_3_Stack/Stack_Applications/reverse_list.cpp.obj:
+	$(MAKE) -f CMakeFiles\DSA_Coding.dir\build.make CMakeFiles/DSA_Coding.dir/Lab_3_Stack/Stack_Applications/reverse_list.cpp.obj
+.PHONY : Lab_3_Stack/Stack_Applications/reverse_list.cpp.obj
 
-Lab_3_Stack/stack_array.i: Lab_3_Stack/stack_array.cpp.i
+Lab_3_Stack/Stack_Applications/reverse_list.i: Lab_3_Stack/Stack_Applications/reverse_list.cpp.i
 
-.PHONY : Lab_3_Stack/stack_array.i
+.PHONY : Lab_3_Stack/Stack_Applications/reverse_list.i
 
 # target to preprocess a source file
-Lab_3_Stack/stack_array.cpp.i:
-	$(MAKE) -f CMakeFiles\DSA_Coding.dir\build.make CMakeFiles/DSA_Coding.dir/Lab_3_Stack/stack_array.cpp.i
-.PHONY : Lab_3_Stack/stack_array.cpp.i
+Lab_3_Stack/Stack_Applications/reverse_list.cpp.i:
+	$(MAKE) -f CMakeFiles\DSA_Coding.dir\build.make CMakeFiles/DSA_Coding.dir/Lab_3_Stack/Stack_Applications/reverse_list.cpp.i
+.PHONY : Lab_3_Stack/Stack_Applications/reverse_list.cpp.i
 
-Lab_3_Stack/stack_array.s: Lab_3_Stack/stack_array.cpp.s
+Lab_3_Stack/Stack_Applications/reverse_list.s: Lab_3_Stack/Stack_Applications/reverse_list.cpp.s
 
-.PHONY : Lab_3_Stack/stack_array.s
+.PHONY : Lab_3_Stack/Stack_Applications/reverse_list.s
 
 # target to generate assembly for a file
-Lab_3_Stack/stack_array.cpp.s:
-	$(MAKE) -f CMakeFiles\DSA_Coding.dir\build.make CMakeFiles/DSA_Coding.dir/Lab_3_Stack/stack_array.cpp.s
-.PHONY : Lab_3_Stack/stack_array.cpp.s
+Lab_3_Stack/Stack_Applications/reverse_list.cpp.s:
+	$(MAKE) -f CMakeFiles\DSA_Coding.dir\build.make CMakeFiles/DSA_Coding.dir/Lab_3_Stack/Stack_Applications/reverse_list.cpp.s
+.PHONY : Lab_3_Stack/Stack_Applications/reverse_list.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... DSA_Coding
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Lab_3_Stack/stack_array.obj
-	@echo ... Lab_3_Stack/stack_array.i
-	@echo ... Lab_3_Stack/stack_array.s
+	@echo ... Lab_3_Stack/Stack_Applications/reverse_list.obj
+	@echo ... Lab_3_Stack/Stack_Applications/reverse_list.i
+	@echo ... Lab_3_Stack/Stack_Applications/reverse_list.s
 .PHONY : help
 
 
