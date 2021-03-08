@@ -7,10 +7,6 @@
 
 
 
-class stackLinked {
-
-};
-
 
 
 #endif //DSA_CODING_STACKLINKED_H
