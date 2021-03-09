@@ -56,27 +56,27 @@ include CMakeFiles/DSA_Coding.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/DSA_Coding.dir/flags.make
 
-CMakeFiles/DSA_Coding.dir/Lab_3_Stack/session2_template/function_template/function_template.cpp.obj: CMakeFiles/DSA_Coding.dir/flags.make
-CMakeFiles/DSA_Coding.dir/Lab_3_Stack/session2_template/function_template/function_template.cpp.obj: ../Lab_3_Stack/session2_template/function_template/function_template.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Leon Punya\BINUS\Kuliah\Semester 2\COMP6571_Data Structures and Algorithms\DSA_Coding\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DSA_Coding.dir/Lab_3_Stack/session2_template/function_template/function_template.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DSA_Coding.dir\Lab_3_Stack\session2_template\function_template\function_template.cpp.obj -c "E:\Leon Punya\BINUS\Kuliah\Semester 2\COMP6571_Data Structures and Algorithms\DSA_Coding\Lab_3_Stack\session2_template\function_template\function_template.cpp"
+CMakeFiles/DSA_Coding.dir/Lab_3_Stack/session2_template/stack_array_template.cpp.obj: CMakeFiles/DSA_Coding.dir/flags.make
+CMakeFiles/DSA_Coding.dir/Lab_3_Stack/session2_template/stack_array_template.cpp.obj: ../Lab_3_Stack/session2_template/stack_array_template.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Leon Punya\BINUS\Kuliah\Semester 2\COMP6571_Data Structures and Algorithms\DSA_Coding\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DSA_Coding.dir/Lab_3_Stack/session2_template/stack_array_template.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DSA_Coding.dir\Lab_3_Stack\session2_template\stack_array_template.cpp.obj -c "E:\Leon Punya\BINUS\Kuliah\Semester 2\COMP6571_Data Structures and Algorithms\DSA_Coding\Lab_3_Stack\session2_template\stack_array_template.cpp"
 
-CMakeFiles/DSA_Coding.dir/Lab_3_Stack/session2_template/function_template/function_template.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DSA_Coding.dir/Lab_3_Stack/session2_template/function_template/function_template.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Leon Punya\BINUS\Kuliah\Semester 2\COMP6571_Data Structures and Algorithms\DSA_Coding\Lab_3_Stack\session2_template\function_template\function_template.cpp" > CMakeFiles\DSA_Coding.dir\Lab_3_Stack\session2_template\function_template\function_template.cpp.i
+CMakeFiles/DSA_Coding.dir/Lab_3_Stack/session2_template/stack_array_template.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DSA_Coding.dir/Lab_3_Stack/session2_template/stack_array_template.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Leon Punya\BINUS\Kuliah\Semester 2\COMP6571_Data Structures and Algorithms\DSA_Coding\Lab_3_Stack\session2_template\stack_array_template.cpp" > CMakeFiles\DSA_Coding.dir\Lab_3_Stack\session2_template\stack_array_template.cpp.i
 
-CMakeFiles/DSA_Coding.dir/Lab_3_Stack/session2_template/function_template/function_template.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DSA_Coding.dir/Lab_3_Stack/session2_template/function_template/function_template.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Leon Punya\BINUS\Kuliah\Semester 2\COMP6571_Data Structures and Algorithms\DSA_Coding\Lab_3_Stack\session2_template\function_template\function_template.cpp" -o CMakeFiles\DSA_Coding.dir\Lab_3_Stack\session2_template\function_template\function_template.cpp.s
+CMakeFiles/DSA_Coding.dir/Lab_3_Stack/session2_template/stack_array_template.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DSA_Coding.dir/Lab_3_Stack/session2_template/stack_array_template.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Leon Punya\BINUS\Kuliah\Semester 2\COMP6571_Data Structures and Algorithms\DSA_Coding\Lab_3_Stack\session2_template\stack_array_template.cpp" -o CMakeFiles\DSA_Coding.dir\Lab_3_Stack\session2_template\stack_array_template.cpp.s
 
 # Object files for target DSA_Coding
 DSA_Coding_OBJECTS = \
-"CMakeFiles/DSA_Coding.dir/Lab_3_Stack/session2_template/function_template/function_template.cpp.obj"
+"CMakeFiles/DSA_Coding.dir/Lab_3_Stack/session2_template/stack_array_template.cpp.obj"
 
 # External object files for target DSA_Coding
 DSA_Coding_EXTERNAL_OBJECTS =
 
-DSA_Coding.exe: CMakeFiles/DSA_Coding.dir/Lab_3_Stack/session2_template/function_template/function_template.cpp.obj
+DSA_Coding.exe: CMakeFiles/DSA_Coding.dir/Lab_3_Stack/session2_template/stack_array_template.cpp.obj
 DSA_Coding.exe: CMakeFiles/DSA_Coding.dir/build.make
 DSA_Coding.exe: CMakeFiles/DSA_Coding.dir/linklibs.rsp
 DSA_Coding.exe: CMakeFiles/DSA_Coding.dir/objects1.rsp

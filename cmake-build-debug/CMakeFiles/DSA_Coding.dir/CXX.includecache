@@ -6,9 +6,13 @@
 
 #IncludeRegexTransform: 
 
-E:/Leon Punya/BINUS/Kuliah/Semester 2/COMP6571_Data Structures and Algorithms/DSA_Coding/Lab_3_Stack/session2_template/function_template/larger_of_string.cpp
+E:/Leon Punya/BINUS/Kuliah/Semester 2/COMP6571_Data Structures and Algorithms/DSA_Coding/Lab_3_Stack/session2_template/stackArrayTemplate.h
 iostream
 -
-string
+
+E:/Leon Punya/BINUS/Kuliah/Semester 2/COMP6571_Data Structures and Algorithms/DSA_Coding/Lab_3_Stack/session2_template/stack_array_template.cpp
+iostream
 -
+stackArrayTemplate.h
+E:/Leon Punya/BINUS/Kuliah/Semester 2/COMP6571_Data Structures and Algorithms/DSA_Coding/Lab_3_Stack/session2_template/stackArrayTemplate.h
 

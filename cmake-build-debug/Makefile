@@ -122,32 +122,32 @@ DSA_Coding/fast:
 	$(MAKE) -f CMakeFiles\DSA_Coding.dir\build.make CMakeFiles/DSA_Coding.dir/build
 .PHONY : DSA_Coding/fast
 
-Lab_3_Stack/session2_template/function_template/function_template.obj: Lab_3_Stack/session2_template/function_template/function_template.cpp.obj
+Lab_3_Stack/session2_template/stack_array_template.obj: Lab_3_Stack/session2_template/stack_array_template.cpp.obj
 
-.PHONY : Lab_3_Stack/session2_template/function_template/function_template.obj
+.PHONY : Lab_3_Stack/session2_template/stack_array_template.obj
 
 # target to build an object file
-Lab_3_Stack/session2_template/function_template/function_template.cpp.obj:
-	$(MAKE) -f CMakeFiles\DSA_Coding.dir\build.make CMakeFiles/DSA_Coding.dir/Lab_3_Stack/session2_template/function_template/function_template.cpp.obj
-.PHONY : Lab_3_Stack/session2_template/function_template/function_template.cpp.obj
+Lab_3_Stack/session2_template/stack_array_template.cpp.obj:
+	$(MAKE) -f CMakeFiles\DSA_Coding.dir\build.make CMakeFiles/DSA_Coding.dir/Lab_3_Stack/session2_template/stack_array_template.cpp.obj
+.PHONY : Lab_3_Stack/session2_template/stack_array_template.cpp.obj
 
-Lab_3_Stack/session2_template/function_template/function_template.i: Lab_3_Stack/session2_template/function_template/function_template.cpp.i
+Lab_3_Stack/session2_template/stack_array_template.i: Lab_3_Stack/session2_template/stack_array_template.cpp.i
 
-.PHONY : Lab_3_Stack/session2_template/function_template/function_template.i
+.PHONY : Lab_3_Stack/session2_template/stack_array_template.i
 
 # target to preprocess a source file
-Lab_3_Stack/session2_template/function_template/function_template.cpp.i:
-	$(MAKE) -f CMakeFiles\DSA_Coding.dir\build.make CMakeFiles/DSA_Coding.dir/Lab_3_Stack/session2_template/function_template/function_template.cpp.i
-.PHONY : Lab_3_Stack/session2_template/function_template/function_template.cpp.i
+Lab_3_Stack/session2_template/stack_array_template.cpp.i:
+	$(MAKE) -f CMakeFiles\DSA_Coding.dir\build.make CMakeFiles/DSA_Coding.dir/Lab_3_Stack/session2_template/stack_array_template.cpp.i
+.PHONY : Lab_3_Stack/session2_template/stack_array_template.cpp.i
 
-Lab_3_Stack/session2_template/function_template/function_template.s: Lab_3_Stack/session2_template/function_template/function_template.cpp.s
+Lab_3_Stack/session2_template/stack_array_template.s: Lab_3_Stack/session2_template/stack_array_template.cpp.s
 
-.PHONY : Lab_3_Stack/session2_template/function_template/function_template.s
+.PHONY : Lab_3_Stack/session2_template/stack_array_template.s
 
 # target to generate assembly for a file
-Lab_3_Stack/session2_template/function_template/function_template.cpp.s:
-	$(MAKE) -f CMakeFiles\DSA_Coding.dir\build.make CMakeFiles/DSA_Coding.dir/Lab_3_Stack/session2_template/function_template/function_template.cpp.s
-.PHONY : Lab_3_Stack/session2_template/function_template/function_template.cpp.s
+Lab_3_Stack/session2_template/stack_array_template.cpp.s:
+	$(MAKE) -f CMakeFiles\DSA_Coding.dir\build.make CMakeFiles/DSA_Coding.dir/Lab_3_Stack/session2_template/stack_array_template.cpp.s
+.PHONY : Lab_3_Stack/session2_template/stack_array_template.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... DSA_Coding
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Lab_3_Stack/session2_template/function_template/function_template.obj
-	@echo ... Lab_3_Stack/session2_template/function_template/function_template.i
-	@echo ... Lab_3_Stack/session2_template/function_template/function_template.s
+	@echo ... Lab_3_Stack/session2_template/stack_array_template.obj
+	@echo ... Lab_3_Stack/session2_template/stack_array_template.i
+	@echo ... Lab_3_Stack/session2_template/stack_array_template.s
 .PHONY : help
 
 
