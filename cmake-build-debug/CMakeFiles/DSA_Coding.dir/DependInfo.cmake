@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/Leon Punya/BINUS/Kuliah/Semester 2/COMP6571_Data Structures and Algorithms/DSA_Coding/Lab_3_Stack/session1/stack_linked.cpp" "E:/Leon Punya/BINUS/Kuliah/Semester 2/COMP6571_Data Structures and Algorithms/DSA_Coding/cmake-build-debug/CMakeFiles/DSA_Coding.dir/Lab_3_Stack/session1/stack_linked.cpp.obj"
+  "E:/Leon Punya/BINUS/Kuliah/Semester 2/COMP6571_Data Structures and Algorithms/DSA_Coding/Lab_3_Stack/session2_template/function_template/function_template.cpp" "E:/Leon Punya/BINUS/Kuliah/Semester 2/COMP6571_Data Structures and Algorithms/DSA_Coding/cmake-build-debug/CMakeFiles/DSA_Coding.dir/Lab_3_Stack/session2_template/function_template/function_template.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
