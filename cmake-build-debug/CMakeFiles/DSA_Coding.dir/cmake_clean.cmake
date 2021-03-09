@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DSA_Coding.dir/Lab_3_Stack/stack_linked.cpp.obj"
+  "CMakeFiles/DSA_Coding.dir/Lab_3_Stack/session1/stack_linked.cpp.obj"
   "DSA_Coding.exe"
   "DSA_Coding.exe.manifest"
   "DSA_Coding.pdb"

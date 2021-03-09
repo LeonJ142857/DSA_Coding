@@ -6,9 +6,13 @@
 
 #IncludeRegexTransform: 
 
-E:/Leon Punya/BINUS/Kuliah/Semester 2/COMP6571_Data Structures and Algorithms/DSA_Coding/others/binary_search.cpp
+E:/Leon Punya/BINUS/Kuliah/Semester 2/COMP6571_Data Structures and Algorithms/DSA_Coding/Lab_3_Stack/stackLinked.h
 iostream
 -
-vector
+
+E:/Leon Punya/BINUS/Kuliah/Semester 2/COMP6571_Data Structures and Algorithms/DSA_Coding/Lab_3_Stack/stack_linked.cpp
+iostream
 -
+stackLinked.h
+E:/Leon Punya/BINUS/Kuliah/Semester 2/COMP6571_Data Structures and Algorithms/DSA_Coding/Lab_3_Stack/stackLinked.h
 
