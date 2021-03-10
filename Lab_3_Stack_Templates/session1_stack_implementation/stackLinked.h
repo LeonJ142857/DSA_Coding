@@ -32,7 +32,7 @@ node* stackLinked::pop(){
 	top->data = 0;
 	node * n = top;
 	top = top->next;
-	free(n);
+	delete(n);
 	return top;
 }
 void stackLinked::display(){
@@ -44,7 +44,7 @@ void stackLinked::display(){
 	}
 }
 int stackLinked::peek(){
-	return top->data;
+	return !is_empty(this) ? top->data : -1;
 }
 bool stackLinked::is_empty() {
 	return peek() != 0;
