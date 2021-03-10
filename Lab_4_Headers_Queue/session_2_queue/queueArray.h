@@ -6,11 +6,19 @@
 #define DSA_CODING_QUEUEARRAY_H
 
 
+class queueArray
+{
+private:
+	static const int MAX = 3;
+	static const int front = 0;
+	int queue[MAX];
+	int rear = -1;
 
-class queueArray {
-
+public:
+	void insert(int);
+	int delete_element();
+	int peek();
+	void display();
 };
-
-
 
 #endif //DSA_CODING_QUEUEARRAY_H
