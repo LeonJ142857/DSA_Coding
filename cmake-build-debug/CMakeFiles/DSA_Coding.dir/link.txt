@@ -1,3 +1,0 @@
-C:\Users\user\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5233.144\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\DSA_Coding.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\DSA_Coding.dir/objects.a @CMakeFiles\DSA_Coding.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\DSA_Coding.dir/objects.a -Wl,--no-whole-archive  -o DSA_Coding.exe -Wl,--out-implib,libDSA_Coding.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\DSA_Coding.dir\linklibs.rsp
