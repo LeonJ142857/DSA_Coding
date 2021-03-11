@@ -9,12 +9,13 @@
 class queueArray
 {
 private:
-	static const int MAX = 3;
+	int MAX;
 	static const int front = 0;
-	int queue[MAX];
+	int * queue;
 	int rear = -1;
 
 public:
+	queueArray(int);
 	void insert(int);
 	int delete_element();
 	int peek();
