@@ -2,8 +2,8 @@
 // Created by user on 10/03/2021.
 //
 
-#ifndef DSA_CODING_QUEUEARRAY_H
-#define DSA_CODING_QUEUEARRAY_H
+#ifndef DSA_CODING_QUEUEARRAYCIRCULAR_H
+#define DSA_CODING_QUEUEARRAYCIRCULAR_H
 
 
 class queueArray
@@ -21,4 +21,4 @@ public:
 	void display();
 };
 
-#endif //DSA_CODING_QUEUEARRAY_H
+#endif //DSA_CODING_QUEUEARRAYCIRCULAR_H
