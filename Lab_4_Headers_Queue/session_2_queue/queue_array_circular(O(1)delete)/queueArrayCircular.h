@@ -4,21 +4,22 @@
 
 #ifndef DSA_CODING_QUEUEARRAYCIRCULAR_H
 #define DSA_CODING_QUEUEARRAYCIRCULAR_H
+#include <vector>
 
-
-class queueArray
+class queueArrayCircular
 {
 private:
-	static const int MAX = 3;
-	int front = 0;
-	int queue[MAX];
-	int rear = -1;
-
+	int MAX;
+	std::vector<int> queue;
+	int rear, front;
 public:
+	explicit queueArrayCircular(int);
+	bool is_full();
+	bool is_empty();
 	void insert(int);
 	int delete_element();
-	int peek();
 	void display();
+	int peek();
 };
 
 #endif //DSA_CODING_QUEUEARRAYCIRCULAR_H
