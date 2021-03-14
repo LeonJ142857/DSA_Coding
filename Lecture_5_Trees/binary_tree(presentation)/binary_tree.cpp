@@ -1,7 +1,7 @@
 //
-// Created by user on 21/02/2021.
+// Created by user on 14/03/2021.
 //
-#include "BinaryTree.h"
+#include "BinaryTree.cpp"
 int main(){
 	auto * a_node = new BinaryTree('a');
 	a_node->insert_left('b');
@@ -27,4 +27,5 @@ int main(){
 	a_node->BFT(); cout << endl;
 	return 0;
 }
+
 
