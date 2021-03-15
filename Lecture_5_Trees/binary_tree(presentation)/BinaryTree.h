@@ -25,8 +25,10 @@ public:
 	void DFT_InOrder();
 	void DFT_PostOrder();
 	void BFT();
+protected:
 	T value;
-	BinaryTree * left;
-	BinaryTree * right;
+	void* left;
+	void* right;
+
 };
 

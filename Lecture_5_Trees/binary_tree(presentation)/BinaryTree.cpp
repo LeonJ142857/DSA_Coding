@@ -25,20 +25,20 @@ void BinaryTree<T>::insert_right(T val){
 template<class T>
 void BinaryTree<T>::DFT_PreOrder(){
 	cout << this->value << ", ";
-	if(this->left != nullptr) this->left->DFT_PreOrder();
-	if(this->right != nullptr) this->right->DFT_PreOrder();
+	if(this->left != nullptr) ((BinaryTree<T>*)(this->left))->DFT_PreOrder();
+	if(this->right != nullptr) ((BinaryTree<T>*)(this->right))->DFT_PreOrder();
 }
 
 template<class T>
 void BinaryTree<T>::DFT_InOrder(){
-	if(this->left != nullptr)  this->left->DFT_InOrder();
+	if(this->left != nullptr) ((BinaryTree<T>*)(this->left))->DFT_InOrder();
 	cout << this->value << ", ";
-	if(this->right != nullptr) this->right->DFT_InOrder();
+	if(this->right != nullptr) ((BinaryTree<T>*)(this->right))->DFT_InOrder();
 }
 template<class T>
 void BinaryTree<T>::DFT_PostOrder(){
-	if(this->left != nullptr) this->left->DFT_PostOrder();
-	if(this->right != nullptr) this->right->DFT_PostOrder();
+	if(this->left != nullptr) ((BinaryTree<T>*)(this->left))->DFT_PostOrder();
+	if(this->right != nullptr) ((BinaryTree<T>*)(this->right))->DFT_PostOrder();
 	cout << this->value << ", ";
 }
 template<class T>
