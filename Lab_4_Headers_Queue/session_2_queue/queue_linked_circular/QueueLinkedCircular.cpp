@@ -2,14 +2,14 @@
 // Created by user on 17/03/2021.
 //
 #include <iostream>
-#include "QueueJosephus.h"
+#include "QueueLinkedCircular.h"
 using namespace std;
-Queue::Queue(){
+QueueLinkedCircular::QueueLinkedCircular(){
 	head = new Node;
 	head->next = nullptr;
 	front = rear = head;
 }
-void Queue::enqueue(int x) {
+void QueueLinkedCircular::enqueue(int x) {
 	Node* p = new Node;
 	p->player_id = x;
 	if(head->next == nullptr){
@@ -23,22 +23,25 @@ void Queue::enqueue(int x) {
 		rear = rear->next;
 	}
 }
-void Queue::display() {
+void QueueLinkedCircular::display() {
 	Node* p = front;
 	do{
 		cout << p->player_id << endl;
 		p = p->next;
 	}while(p != rear->next);
 }
-void Queue::move_next() {
+void QueueLinkedCircular::move_next(){
 	front = front->next;
 	rear = rear->next;
 }
-int Queue::dequeue() {
+int QueueLinkedCircular::dequeue() {
 	int x; Node* t = front;
 	x = t->player_id;
 	front = front->next;
 	rear->next = front;
 	delete t;
 	return x;
+}
+int QueueLinkedCircular::top() {
+	return front->player_id;
 }

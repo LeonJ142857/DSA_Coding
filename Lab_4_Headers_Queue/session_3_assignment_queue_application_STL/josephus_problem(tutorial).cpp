@@ -2,11 +2,11 @@
 // Created by user on 17/03/2021.
 //
 #include<iostream>
-#include "QueueJosephus.h"
+#include "../session_2_queue/queue_linked_circular/QueueLinkedCircular.h"
 using namespace std;
 
 int main() {
-	Queue e;
+	QueueLinkedCircular e;
 	int n, m, i;
 
 	cout << "Enter the number of players: ";
