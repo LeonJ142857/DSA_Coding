@@ -5,7 +5,6 @@
 #include <vector>
 #include <iostream>
 using namespace std;
-typedef pair<int, string> pis;
 int main(){
 	priority_queue<pair<int, string>> pq;
 	pair<int, string> input; int n;
