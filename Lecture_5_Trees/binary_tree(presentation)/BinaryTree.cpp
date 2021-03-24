@@ -49,7 +49,7 @@ void BinaryTree<T>::BFT(){
 		auto curr = q.front();
 		cout << curr->value << ", ";
 		q.pop();
-		if (curr->left != nullptr) q.push(curr->left);
-		if (curr->right != nullptr) q.push(curr->right);
+		if (curr->left != nullptr) q.push((BinaryTree*)curr->left);
+		if (curr->right != nullptr) q.push((BinaryTree*)curr->right);
 	}
 }

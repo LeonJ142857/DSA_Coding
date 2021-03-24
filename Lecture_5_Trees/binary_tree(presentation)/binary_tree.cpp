@@ -7,10 +7,10 @@ int main(){
 	a_node->insert_left('b');
 	a_node->insert_right('c');
 
-	auto * b_node = a_node->left;
+	auto * b_node = (BinaryTree<char>*)(a_node->left);
 	b_node->insert_right('d');
 
-	auto * c_node = a_node->right;
+	auto * c_node = (BinaryTree<char>*)a_node->right;
 	c_node->insert_left('e');
 	c_node->insert_right('f');
 

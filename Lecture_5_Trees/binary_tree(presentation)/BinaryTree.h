@@ -25,7 +25,6 @@ public:
 	void DFT_InOrder();
 	void DFT_PostOrder();
 	void BFT();
-protected:
 	T value;
 	void* left;
 	void* right;
