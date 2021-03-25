@@ -8,13 +8,13 @@ using namespace std;
 int main(){
 	
 	HashBucket hb[MAX_DATA]; // create hash bucket and initialize it
-	for(int i=0 ; i<MAX_DATA ; i++){
-		hb[i].head = nullptr;
-		hb[i].tail = nullptr;
-		hb[i].number_of_node = 0;
+	for(auto & i : hb){
+		i.head = nullptr;
+		i.tail = nullptr;
+		i.number_of_node = 0;
 	}
 	
-	Hash myhashtable(hb);
+	BucketHashTable myhashtable(hb);
 	
 	myhashtable.push_data(myhashtable.create_node("Sidony Tanis"));
 	myhashtable.push_data(myhashtable.create_node("Syntyche Shahjahan"));
@@ -24,7 +24,8 @@ int main(){
 	myhashtable.push_data(myhashtable.create_node("Taisiya Knutr"));
 	myhashtable.push_data(myhashtable.create_node("Demetria Magomed"));
 	myhashtable.push_data(myhashtable.create_node("Regan Till"));
-	
+
+	myhashtable.delete_data("Regan Till");
 //	myhashtable.push_data(myhashtable.create_node("Yudy Purnama"));
 //	myhashtable.push_data(myhashtable.create_node("Hanry Ham"));
 //	myhashtable.push_data(myhashtable.create_node("M Zulfikar"));
