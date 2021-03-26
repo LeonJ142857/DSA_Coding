@@ -9,19 +9,17 @@ typedef struct data{
 	string address;
 } Data;
 
-
-typedef struct node{
+struct Node{
 	int key = 0;
 	string data;
-	struct node *next = nullptr;
-} Node;
+	struct Node *next = nullptr;
+};
 
-typedef struct hash_bucket{
+struct HashBucket{
 	int number_of_node = 0;
-	Node *head = nullptr;
-	Node *tail = nullptr;
-} HashBucket;
-
+	Node* head = nullptr;
+	Node* tail = nullptr;
+};
 
 class BucketHashTable
 {
